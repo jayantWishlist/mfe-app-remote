@@ -14,3 +14,9 @@ Run command to serve the build on a port
 ```
 http-server dist/mfe-app@1.0.0 --port 4400 -cors
 ```
+
+or you can use serve 
+npx serve -s dist/mfe-app@1.0.0 -l 4400 --cors
+
+to use this you first need to install this using 
+npm install -g serve
